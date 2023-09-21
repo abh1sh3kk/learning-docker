@@ -6,7 +6,4 @@ services:
     ports:
       - 9090:8080
     volumes:
-      - .:/usr/src/app
-
-
-  
+      - ./:/usr/src/app
